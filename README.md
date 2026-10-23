@@ -4,6 +4,10 @@
 
 A format-1 plugin market index for DeepSeek Harness, listing the DSH bundles published by crane-you.
 
+> **状态 · Status**：这份索引**目前不再接入本机的市场** —— DSH 的市场已改用 [dshmarket 的社区目录](https://cdn.jsdelivr.net/npm/dsh-plugin-catalog/index.json)（同样是 format 1）。本仓库与 npm 包 `dsh-market-index` 保留下来，作为「把 format-1 索引发布成 npm 数据包、再用无重定向的 CDN 直链喂给市场」的一个可用示例（含版本固定与缓存取舍的说明）。
+>
+> **Status**: this index is no longer wired into this machine's market; the market now reads dshmarket's community catalog. The repository and the `dsh-market-index` npm package are kept as a working example of publishing a format-1 index as an npm data package and feeding the market a redirect-free CDN URL.
+
 ## 索引地址 · Index URL
 
 ```
