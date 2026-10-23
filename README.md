@@ -20,7 +20,7 @@ Settings → Plugins → **Discover** → add index, paste the URL above.
 
 | 包名 · Package | 名称 · Name | 说明 · What it does |
 | --- | --- | --- |
-| [`dsh-task-plugin-scout`](https://www.npmjs.com/package/dsh-task-plugin-scout) | Task Plugin Scout / 任务插件参谋 | 按任务排序本机插件（已启用 / 已安装但未启用 / 市场可安装），并给出每个候选的启用或安装步骤。 |
+| [`dsh-task-plugin-scout`](https://www.npmjs.com/package/dsh-task-plugin-scout) | `dsh-task-plugin-scout` | 按任务排序本机插件（已启用 / 已安装但未启用 / 市场可安装），并给出每个候选的启用或安装步骤。 |
 
 ## 为什么用 jsDelivr 地址 · Why the jsDelivr URL
 
