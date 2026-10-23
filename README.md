@@ -10,6 +10,8 @@ A format-1 plugin market index for DeepSeek Harness, listing the DSH bundles pub
 https://cdn.jsdelivr.net/gh/crane-you/dsh-market-index@main/index.json
 ```
 
+> **缓存与「立刻生效」** · Cache note：jsDelivr 对分支地址（`@main`）的边缘缓存是 **12 小时**（`s-maxage=43200`），而且查询参数不参与缓存键 —— 索引改动后最久要 12 小时才对外可见。需要立刻生效时，把地址**固定到 commit**：`.../dsh-market-index@<完整 commit sha>/index.json`（新路径 = 缓存未命中，即时回源）。本机 DSH 里配置的就是这种固定地址，索引重新生成后需同步更新那个 sha。
+
 ## 怎么用 · How to add it
 
 DSH → 设置 → 插件 → **发现** → 添加索引，粘贴上面的地址。
