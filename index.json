@@ -31,8 +31,8 @@
     {
       "name": "dsh-task-plugin-scout",
       "title": {
-        "en": "Task Plugin Scout",
-        "zh": "任务插件参谋"
+        "en": "dsh-task-plugin-scout",
+        "zh": "dsh-task-plugin-scout"
       },
       "description": {
         "en": "Finds the plugins that make a task easier: ranks this profile's already-active, installed-but-disabled and marketplace plugins against the task at hand, and returns the exact next step for each candidate.",
