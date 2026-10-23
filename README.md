@@ -4,9 +4,9 @@
 
 A format-1 plugin market index for DeepSeek Harness, listing the DSH bundles published by crane-you.
 
-> **状态 · Status**：这份索引**已退役**。DSH 的市场已改用 [dshmarket 的社区目录](https://cdn.jsdelivr.net/npm/dsh-plugin-catalog/index.json)（同样是 format 1），因此本仓库**已归档为只读**，npm 上的 `dsh-market-index` 包也不再维护（取消发布进度见提交记录）。它保留下来的价值是作为参考：演示了「把 format-1 索引发布成 npm 数据包、再用无重定向的 CDN 直链喂给市场」的完整做法，含版本固定与缓存的取舍。
+> **状态 · Status**：这份索引**已退役**。DSH 的市场已改用 [dshmarket 的社区目录](https://cdn.jsdelivr.net/npm/dsh-plugin-catalog/index.json)（同样是 format 1），因此本仓库**已归档为只读**，npm 上的 `dsh-market-index` 包**也已从 npm 取消发布**（全部 7 个版本，2026-10-23 完成，registry 现在只留下墓碑记录）。它保留下来的价值是作为参考：演示了「把 format-1 索引发布成 npm 数据包、再用无重定向的 CDN 直链喂给市场」的完整做法，含版本固定与缓存的取舍。
 >
-> **Status**: retired. The market now reads dshmarket's community catalog, this repository **is archived (read-only)**, and the `dsh-market-index` npm package is no longer maintained. It remains as a reference for publishing a format-1 index as an npm data package and feeding the market a redirect-free CDN URL, including the version-pinning and cache trade-offs.
+> **Status**: retired. The market now reads dshmarket's community catalog, this repository **is archived (read-only)**, and the `dsh-market-index` npm package **has been unpublished from npm** (all seven versions, on 2026-10-23; the registry keeps only a tombstone record). It remains as a reference for publishing a format-1 index as an npm data package and feeding the market a redirect-free CDN URL, including the version-pinning and cache trade-offs.
 
 ## 索引地址 · Index URL
 
