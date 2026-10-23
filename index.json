@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "title": {
+    "en": "crane-you's DSH plugins",
+    "zh": "crane-you 的 DSH 插件"
+  },
+  "description": {
+    "en": "DeepSeek Harness bundles published by crane-you.",
+    "zh": "crane-you 发布的 DeepSeek Harness 插件。"
+  },
+  "metadata": {
+    "categories": {
+      "tools": {
+        "title": {
+          "en": "Model tools",
+          "zh": "模型工具"
+        }
+      }
+    },
+    "labels": {
+      "discovery": {
+        "title": {
+          "en": "Discovery",
+          "zh": "发现"
+        }
+      }
+    },
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-task-plugin-scout",
+      "title": {
+        "en": "Task Plugin Scout",
+        "zh": "任务插件参谋"
+      },
+      "description": {
+        "en": "Finds the plugins that make a task easier: ranks this profile's already-active, installed-but-disabled and marketplace plugins against the task at hand, and returns the exact next step for each candidate.",
+        "zh": "按任务给插件排序——已启用、已安装但未启用、以及市场里可安装的——并给出每个候选的启用或安装步骤。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlRhc2sgUGx1Z2luIFNjb3V0Ij4KICA8dGl0bGU+VGFzayBQbHVnaW4gU2NvdXQ8L3RpdGxlPgogIDxyZWN0IHg9IjMiIHk9IjMiIHdpZHRoPSI1OCIgaGVpZ2h0PSI1OCIgcng9IjE1IiBmaWxsPSIjMEY0QzVDIi8+CiAgPHBhdGggZD0iTTM2LjUgMzUuNSBMNTEgNTAiIHN0cm9rZT0iI0VBRjJFRiIgc3Ryb2tlLXdpZHRoPSI2LjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgZmlsbD0ibm9uZSIvPgogIDxjaXJjbGUgY3g9IjI3IiBjeT0iMjYiIHI9IjE0LjUiIGZpbGw9IiNFQUYyRUYiLz4KICA8ZyBmaWxsPSIjMEY0QzVDIj4KICAgIDxyZWN0IHg9IjE5LjUiIHk9IjE4LjUiIHdpZHRoPSI3LjUiIGhlaWdodD0iNy41IiByeD0iMi4yIi8+CiAgICA8cmVjdCB4PSIyOC41IiB5PSIxOC41IiB3aWR0aD0iNy41IiBoZWlnaHQ9IjcuNSIgcng9IjIuMiIvPgogICAgPHJlY3QgeD0iMTkuNSIgeT0iMjcuNSIgd2lkdGg9IjcuNSIgaGVpZ2h0PSI3LjUiIHJ4PSIyLjIiLz4KICA8L2c+CiAgPHJlY3QgeD0iMjguNSIgeT0iMjcuNSIgd2lkdGg9IjcuNSIgaGVpZ2h0PSI3LjUiIHJ4PSIyLjIiIGZpbGw9IiNGMkE2NUEiLz4KPC9zdmc+",
+      "author": "crane-you",
+      "homepage": "https://github.com/crane-you/dsh-task-plugin-scout#readme",
+      "repository": {
+        "url": "https://github.com/crane-you/dsh-task-plugin-scout"
+      },
+      "metadata": {
+        "category": "tools",
+        "labels": [
+          "discovery"
+        ],
+        "keywords": [
+          "dsh",
+          "deepseek-harness",
+          "plugin-discovery",
+          "task-planning",
+          "agent-tools"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1792748615,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    }
+  ]
+}
