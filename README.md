@@ -11,9 +11,11 @@ https://cdn.jsdelivr.net/npm/dsh-market-index@1/index.json
 ```
 
 源文件就是这个仓库里的 `index.json`，但给市场客户端请用上面的 **npm 回源直链**：npm 数据包
-[`dsh-market-index`](https://www.npmjs.com/package/dsh-market-index) 分发同一份文档，`@1` 范围地址会在新版本发布后一两分钟内自动跟随。
+[`dsh-market-index`](https://www.npmjs.com/package/dsh-market-index) 分发同一份文档。
 
-> **为什么不用 GitHub 直链** · Cache note：jsDelivr 对 GitHub 分支地址（`@main`）的边缘缓存是 **12 小时**（`s-maxage=43200`），而且查询参数不参与缓存键 —— 索引改动用 GitHub 直链最久要 12 小时才对市场可见。npm 版本的 URL 则「每个版本不可变」，范围地址又能自动跟随，既快又不需要改配置。
+> **缓存与「立刻生效」** · Cache note：jsDelivr 的缓存很激进 —— GitHub 分支地址（`@main`）边缘缓存 **12 小时**（`s-maxage=43200`），查询参数不参与缓存键；npm 的 `@1` **范围地址理论上会自动跟随，但实测其解析结果可能在边缘缓存里长时间停留**（观察到十几分钟后仍是旧文档）。所以按需要选：
+> - **人工加索引、能接受延迟** → 用上面的 `@1` 地址最省事（新版本最终会跟随）；
+> - **需要立即且确定地读到最新索引** → 固定到**精确版本**，例如 `https://cdn.jsdelivr.net/npm/dsh-market-index@1.0.4/index.json` —— 每个版本都是不可变的缓存键，一次就对。本机 DSH 里配置的就是这种精确版本地址，索引重新发布后需同步版本号。
 
 ## 怎么用 · How to add it
 
