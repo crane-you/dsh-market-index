@@ -7,10 +7,13 @@ A format-1 plugin market index for DeepSeek Harness, listing the DSH bundles pub
 ## 索引地址 · Index URL
 
 ```
-https://cdn.jsdelivr.net/gh/crane-you/dsh-market-index@main/index.json
+https://cdn.jsdelivr.net/npm/dsh-market-index@1/index.json
 ```
 
-> **缓存与「立刻生效」** · Cache note：jsDelivr 对分支地址（`@main`）的边缘缓存是 **12 小时**（`s-maxage=43200`），而且查询参数不参与缓存键 —— 索引改动后最久要 12 小时才对外可见。需要立刻生效时，把地址**固定到 commit**：`.../dsh-market-index@<完整 commit sha>/index.json`（新路径 = 缓存未命中，即时回源）。本机 DSH 里配置的就是这种固定地址，索引重新生成后需同步更新那个 sha。
+源文件就是这个仓库里的 `index.json`，但给市场客户端请用上面的 **npm 回源直链**：npm 数据包
+[`dsh-market-index`](https://www.npmjs.com/package/dsh-market-index) 分发同一份文档，`@1` 范围地址会在新版本发布后一两分钟内自动跟随。
+
+> **为什么不用 GitHub 直链** · Cache note：jsDelivr 对 GitHub 分支地址（`@main`）的边缘缓存是 **12 小时**（`s-maxage=43200`），而且查询参数不参与缓存键 —— 索引改动用 GitHub 直链最久要 12 小时才对市场可见。npm 版本的 URL 则「每个版本不可变」，范围地址又能自动跟随，既快又不需要改配置。
 
 ## 怎么用 · How to add it
 
